@@ -1,0 +1,4 @@
+# Ignore local database artifacts and temporary write logs
+data/*.db
+data/*.wal
+data/*.tmp
