@@ -109,7 +109,7 @@ SELECT DISTINCT
     b.book_id,
     a.author_key
 FROM exploded_auth AS b
-INNER JOIN dim_author AS a
+INNER JOIN dim_authors AS a
     ON b.author_name = a.author_name;
 
 
